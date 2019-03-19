@@ -5,7 +5,7 @@
 
 # http-server: a command-line http server
 
-`http-server` is a simple, zero-configuration command-line http server.  It is powerful enough for production usage, but it's simple and hackable enough to be used for testing, local development, and learning.
+`http-server` is a simple, zero-configuration command-line http server. It is powerful enough for production usage, but it's simple and hackable enough to be used for testing, local development, and learning.
 
 ![](https://github.com/nodeapps/http-server/raw/master/screenshots/public.png)
 
@@ -13,7 +13,7 @@
 
 Installation via `npm`:
 
-     npm install http-server -g
+     npm install http-server-liujians -g
 
 This will install `http-server` globally so that it may be run from the command line.
 
@@ -21,15 +21,17 @@ This will install `http-server` globally so that it may be run from the command 
 
 Using `npx` you can run the script without installing it first:
 
-     npx http-server [path] [options]
+     npx http-server-liujians [path] [options]
 
 ## Usage:
 
-     http-server [path] [options]
+     http-server-liujians [path] [options]
+
+     hsl [path] [options]
 
 `[path]` defaults to `./public` if the folder exists, and `./` otherwise.
 
-*Now you can visit http://localhost:8080 to view your server*
+_Now you can visit http://localhost:8080 to view your server_
 
 **Note:** Caching is on by default. Add `-c-1` as an option to disable caching.
 
@@ -80,10 +82,10 @@ Checkout this repository locally, then:
 
 ```sh
 $ npm i
-$ node bin/http-server
+$ node bin/http-server-liujians
 ```
 
-*Now you can visit http://localhost:8080 to view your server*
+_Now you can visit http://localhost:8080 to view your server_
 
 You should see the turtle image in the screenshot above hosted at that URL. See
 the `./public` folder for demo content.
