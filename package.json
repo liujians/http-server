@@ -1,11 +1,11 @@
 {
-  "name": "http-server",
-  "version": "0.11.1",
-  "description": "A simple zero-configuration command-line http server",
+  "name": "http-server-liujians",
+  "version": "0.11.2",
+  "description": "刘剑改写的http-server",
   "main": "./lib/http-server",
   "repository": {
     "type": "git",
-    "url": "git://github.com/indexzero/http-server.git"
+    "url": "git://github.com/liujians/http-server.git"
   },
   "keywords": [
     "cli",
@@ -19,51 +19,6 @@
   "files": [
     "lib",
     "bin"
-  ],
-  "contributors": [
-    {
-      "name": "Charlie Robbins",
-      "email": "charlie.robbins@gmail.com"
-    },
-    {
-      "name": "Marak Squires",
-      "email": "marak.squires@gmail.com"
-    },
-    {
-      "name": "Charlie McConnell",
-      "email": "charlie@charlieistheman.com"
-    },
-    {
-      "name": "Joshua Holbrook",
-      "email": "josh.holbrook@gmail.com"
-    },
-    {
-      "name": "Maciej Małecki",
-      "email": "maciej.malecki@notimplemented.org"
-    },
-    {
-      "name": "Matthew Bergman",
-      "email": "mzbphoto@gmail.com"
-    },
-    {
-      "name": "brad dunbar",
-      "email": "dunbarb2@gmail.com"
-    },
-    {
-      "name": "Dominic Tarr"
-    },
-    {
-      "name": "Travis Person",
-      "email": "travis.person@gmail.com"
-    },
-    {
-      "name": "Jinkwon Lee",
-      "email": "master@bdyne.net"
-    },
-    {
-      "name": "BigBlueHat",
-      "email": "byoung@bigbluehat.com"
-    }
   ],
   "dependencies": {
     "colors": "1.0.3",
@@ -86,7 +41,7 @@
   "license": "MIT",
   "preferGlobal": "true",
   "bin": {
-    "http-server": "./bin/http-server",
-    "hs": "./bin/http-server"
+    "http-server-liujians": "./bin/http-server",
+    "hsl": "./bin/http-server"
   }
 }
